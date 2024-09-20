@@ -18,4 +18,8 @@ public class Rettangolo {
         base=baseN;
         altezza=altezzaN;
     }
+
+    //Set
+    public void setAltezza(double altezzaN) { altezza = altezzaN; }
+    public void setBase(double baseN) { base = baseN; }
 }
