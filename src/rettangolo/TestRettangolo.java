@@ -6,8 +6,7 @@ public class TestRettangolo {
         Rettangolo r3=new Rettangolo(9,4);
         System.out.println("La somma dei perimetri è: "+(r1.perimetro()+r2.perimetro()+r3.perimetro()));
         System.out.println("La somma delle aree è: "+(r1.area()+r2.area()+r3.area()));
-        r1.setAltezza(4);
-        r1.setBase(6);
+        r1.ridimensiona(6,4);
         System.out.println("Post-ridimensionamento di r1");
         System.out.println("La somma dei perimetri è: "+(r1.perimetro()+r2.perimetro()+r3.perimetro()));
         System.out.println("La somma delle aree è: "+(r1.area()+r2.area()+r3.area()));
